@@ -1,0 +1,121 @@
+html,
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+.left .br {
+    font-weight: bold;
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+
+.left .arch {
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    gap: 3rem;
+}
+
+.right p {
+    letter-spacing: 3px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.right p:hover {
+    margin-bottom: 2px;
+    border-bottom: 1px solid black;
+}
+
+.img {
+    background-color: red;
+    height: 673px;
+    width: 100%;
+
+}
+
+.terrain {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.project {
+    margin-top: 4rem;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(43, 43, 43);
+}
+
+.grid-container {
+    margin-top: 6rem;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 1vh;
+    grid-auto-columns: 80px;
+
+}
+
+.grid-container>div>img {
+    width: ;
+    object-fit: cover;
+    max-width: 100%
+}
+
+.abtcont{
+    width: 1231px;
+    height: 442px;
+    padding: 0px 8px;
+    margin: 1px;
+    background-color: brown;
+
+}
+.aboutimg{
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    display:inline-flex;
+}
+
+.up{
+    width:100%;
+    height:30%;
+}
+.up img{
+    width: 100%;
+    height: 50%;
+}
+.endimg{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
